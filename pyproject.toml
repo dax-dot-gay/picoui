@@ -1,0 +1,22 @@
+[project]
+name = "picoui"
+version = "0.1.0"
+description = "Lightweight terminal menu library"
+authors = [
+    {name = "Dax Harris", email = "mvh3875@rit.edu"},
+]
+dependencies = [
+    "rich>=13.7.1",
+    "readchar>=4.1.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.pdm]
+distribution = true
